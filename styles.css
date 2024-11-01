@@ -1,6 +1,6 @@
 @font-face {
   font-family: "customFont";
-  src: url("assets/Norse-Bold.otf");
+  src: url("assets/Norse-Bold.otf") format("opentype");
 }
 
 body {
@@ -100,10 +100,6 @@ body {
   font-weight: 700;
   font-size: larger;
   padding-left: 30px;
-}
-
-odin-project-description-wrapper p {
-  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
 }
 
 .odin-project-form-form-wrapper {
