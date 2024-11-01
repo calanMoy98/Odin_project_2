@@ -1,0 +1,219 @@
+/* * {
+  border: 1px red solid;
+} */
+@font-face {
+  font-family: "customFont";
+  src: url("assets/Norse-Bold.otf");
+}
+
+body {
+  height: 100%;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  background-color: black;
+  overflow-y: hidden;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.odin-project-form-wrapper {
+  display: flex;
+  /* gap: 30px; */
+  background-color: rgb(243, 243, 243);
+  height: 100%;
+  width: 90vw;
+  padding: 0;
+  margin: 0;
+}
+
+.odin-project-image-and-text-section-wrapper {
+  width: 40vw;
+  height: 100vh;
+  position: relative;
+}
+
+.odin-project-text-section-wrapper {
+  position: absolute;
+  right: 0;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  height: 50vh;
+  /* z-index: 1; */
+}
+
+.odin-project-credits-section-wrapper {
+  position: absolute;
+  right: 0;
+  left: 0;
+  top: 98svh;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #ffffffbe;
+  height: 2vh;
+  width: 40vw;
+  /* background-color: rgba(31, 32, 32, 0.8); */
+}
+
+.odin-project-text-section-holder {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* align-content: stretch; */
+  /* flex-direction: "row"; */
+  color: #fff;
+  height: 15vh;
+  width: 40vw;
+  background-color: rgba(31, 32, 32, 0.6);
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.odin-project-image-section {
+  width: 40vw;
+  height: 100vh;
+  position: relative;
+}
+
+.odin-project-text-section-odin-lined-img {
+  height: 15vh;
+  /* width: auto; */
+}
+
+.odin-project-text-section-text {
+  font-family: "CustomFont";
+  display: flex;
+  align-items: center;
+  font-size: 50px;
+}
+
+.odin-project-form-section-wrapper {
+  display: flex;
+  align-content: center;
+  flex-direction: column;
+  gap: 2em;
+  width: 50vw;
+}
+
+.odin-project-description-wrapper {
+  height: 33vh;
+  display: flex;
+  justify-content: end;
+  flex-direction: column;
+  align-items: start;
+  font-weight: 700;
+  font-size: larger;
+  padding-left: 30px;
+}
+
+odin-project-description-wrapper p {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+.odin-project-form-form-wrapper {
+  /* background-color: black; */
+  background-color: white;
+  width: 50vw;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.1);
+  /* box-shadow: ; */
+}
+
+.odin-project-form-fieldset-wrapper {
+  padding-top: 20px;
+  padding-bottom: 30px;
+  padding-left: 30px;
+  border: 0;
+}
+
+.odin-project-submit-wrapper {
+  display: flex;
+  flex-direction: column;
+  padding-left: 30px;
+  font-weight: 300;
+}
+
+.odin-project-form-details-wrapper {
+  display: flex;
+  flex-direction: row;
+  gap: 5svw;
+}
+
+.odin-project-form-details {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.odin-project-input-fields {
+  display: flex;
+  flex-direction: column;
+}
+
+.odin-project-create-account-button {
+  background-color: #596d48;
+  padding: 10px 40px;
+  border: solid grey 1px;
+  border-radius: 8px;
+  font-weight: 600;
+  color: #fff;
+}
+
+input {
+  border: 1px solid #e5e7eb;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  padding: 5px;
+}
+
+/* input * {
+  border: solid 1px red;
+} */
+
+a:visited {
+  color: #596d48;
+  text-decoration-line: none;
+}
+
+input:focus {
+  outline: none;
+  border: 1px solid rgb(53, 91, 214);
+  box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.1);
+}
+
+input:invalid {
+  border: 1px solid red;
+}
+
+input:valid {
+  border: 1px solid rgb(53, 91, 214);
+}
+
+.password-not-match-text {
+  color: red;
+  font-size: 10px;
+  margin: 0;
+}
+
+.login {
+  text-decoration-line: none;
+  font-weight: 600;
+}
+
+.credits:visited {
+  color: #ffffffbe;
+}
+
+.credits {
+  color: #ffffffbe;
+}
+
+.odin-project-login-wrapper p {
+  font-weight: 400;
+}
